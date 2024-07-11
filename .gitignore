@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+infra/cdk.context.json
+infra/package-lock.json
+infra/README.md
