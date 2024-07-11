@@ -10,7 +10,9 @@
     "watch": "tsc -w",
     "test": "jest",
     "git-clear": "git rm -r --cached .",
-    "cdk": "cdk"
+    "cdk:synth": "cdk synth --profile fsps-cdk-admin",
+    "cdk:deploy": "npx aws-cdk deploy --require-approval never --all --outputs-file cdk-outputs.json --profile fsps-cdk-admin",
+    "cdk:destroy": "cdk destroy --require-approval never --all --force --profile fsps-cdk-admin"
   },
   "devDependencies": {
     "@types/git-branch": "^2.0.5",
@@ -23,6 +25,7 @@
     "typescript": "~5.5.3"
   },
   "dependencies": {
+    "@aws-cdk/aws-cognito-identitypool-alpha": "^2.148.1-alpha.0",
     "aws-cdk-lib": "2.148.0",
     "constructs": "^10.0.0",
     "git-branch": "^2.0.1",

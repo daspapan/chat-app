@@ -19,7 +19,7 @@ const context: CDKContext & cdk.StackProps = {
   ...globals,
   ...branchConfig
 }
-console.log("Context", context)
+// console.log("Context", context)
 
 const appName = `${context.appName}-${context.stage}`
 const stackName = `${appName}-Stack`

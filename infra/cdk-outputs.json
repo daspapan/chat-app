@@ -1,0 +1,12 @@
+{
+  "chat-app-dev-Stack": {
+    "UserPoolClientId": "5loga70pclqek95ah5q9hpa10p",
+    "GraphQLAPIId": "qmkehrackfdqzi7o5h2jap3jai",
+    "UserPoolId": "ap-south-1_F86DpyOEn",
+    "BucketName": "chat-app-dev-stack-chatappdevbucketa9aa1c34-bqazn3trxvhv",
+    "BucketRegion": "ap-south-1",
+    "GraphQLAPIUrl": "https://7vbyz32dnjdxxf5sxlq3hondyi.appsync-api.ap-south-1.amazonaws.com/graphql",
+    "Region": "ap-south-1",
+    "IdentityPoolId": "ap-south-1:3a2635ff-b61d-4790-a34a-a34bd80fdba7"
+  }
+}
