@@ -12,7 +12,7 @@
     "git-clear": "git rm -r --cached .",
     "cdk:synth": "cdk synth --profile fsps-cdk-admin",
     "cdk:deploy": "npx aws-cdk deploy --require-approval never --all --outputs-file cdk-outputs.json --profile fsps-cdk-admin",
-    "cdk:destroy": "cdk destroy --require-approval never --all --force --profile fsps-cdk-admin"
+    "cdk:destroy": "npx aws-cdk destroy --require-approval never --all --force --profile fsps-cdk-admin"
   },
   "devDependencies": {
     "@types/git-branch": "^2.0.5",
